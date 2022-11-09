@@ -108,7 +108,7 @@ export const pricing = {
       descrip: `Puede ser “completo”: con comida (consultar menú) y servicios.  O “con servicios”: es solo el personal. 
         El salón se alquila con mesas, sillas, vajilla, mantelería y cortinado.`,
       wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon%20principal",
-      delay: 600,
+      delay: 500,
     },
     {
       price: "Salón pequeño",
@@ -126,7 +126,7 @@ export const pricing = {
       ],
       descrip: "*En caso de no necesitar algo de esto se puede retirar*",
       wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon%20peque%C3%B1o",
-      delay: 800,
+      delay: 500,
     },
     {
       price: "Adicionables",
@@ -147,7 +147,7 @@ export const pricing = {
       ],
       descrip: "",
       wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables",
-      delay: 800,
+      delay: 500,
     },
   ],
 };
@@ -173,7 +173,7 @@ export const pricing2 = {
       ],
       descrip: "Hasta 55 personas entre niños/as y adultos y 3 horas reloj.",
       wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Eventos%20infantiles",
-      delay: 600,
+      delay: 500,
     },
     {
       price: "Adicionables",
@@ -187,7 +187,7 @@ export const pricing2 = {
       ],
       descrip: "Consulte para otros adicionables",
       wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables%20infantiles",
-      delay: 800,
+      delay: 500,
     },
   ],
 };

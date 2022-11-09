@@ -19,6 +19,15 @@ const PlanList = ({ plans }) => {
             data-aos-delay={delay}
             className="w-full md:max-w-[620px] lg:max-w-[405px] rounded-sm px-4 lg:min-h-[550px]"
           >
+            <div className="flex justify-center items-center movile2">
+              <div className="text-[32px] lg:text-[50px] font-primary font-extrabold text-center flex flex-col items-center justify-center mb-3 mt-3">
+                <div className="leading-none">
+                  <span>{price}</span>
+                  <span className="text-[30px] font-extrabold"> </span>
+                </div>
+                <span className="text-sm font-medium"> </span>
+              </div>
+            </div>
             <div
               className={`${
                 currentIndex === index
@@ -28,7 +37,7 @@ const PlanList = ({ plans }) => {
             >
               <div className="flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-x-0 items-center">
                 {/* name & price wrapper */}
-                <div>
+                <div className="movile">
                   {/* name */}
                   <div
                     className={`${

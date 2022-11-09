@@ -69,3 +69,17 @@
     @apply flex -space-x-4;
   }
 }
+
+@media (max-width: 489px) {
+  .movile {
+    display: none;
+  }
+  .leading-none span {
+    color: #160b35;
+  }
+}
+@media (min-width: 489px) {
+  .movile2 {
+    display: none;
+  }
+}
