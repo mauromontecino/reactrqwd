@@ -259,7 +259,7 @@ export const faq = {
 export const join = {
   image: JoinImg,
   title: "¿Necesitas más información?",
-  subtitle: "Subtitulo",
+  subtitle: "Escribinos o consultá las",
   btnText: "Fechas disponibles",
 };
 
