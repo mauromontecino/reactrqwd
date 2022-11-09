@@ -17,6 +17,7 @@ const Join = () => {
             data-aos="fade-right"
             data-aos-offset="100"
             data-aos-delay="200"
+            id="fdPage"
           >
             <img src={image} alt="" />
           </div>

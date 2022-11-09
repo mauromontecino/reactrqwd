@@ -23,7 +23,9 @@ const NavMobile = ({ navMobile }) => {
       </ul>
       {/* buttons */}
       <div className="-mt-44 flex justify-center gap-x-8">
-        <button className="btn btn-lg btn-primary">Contactanos</button>
+        <button className="btn btn-lg btn-primary">
+          <a href="https://google.com">Contactanos</a>
+        </button>
       </div>
     </nav>
   );

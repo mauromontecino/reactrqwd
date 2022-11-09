@@ -42,7 +42,11 @@ const Header = () => {
         <button className="btn btn-sm text-white hover:text-primary-200 transition">
           {btnLoginText}
         </button>
-        <button className="btn btn-sm btn-primary">{btnSignupText}</button>
+        <button className="btn btn-sm btn-primary">
+          <a href="https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon">
+            {btnSignupText}
+          </a>
+        </button>
       </div>
 
       {/* nav menu button - hide on desktop */}

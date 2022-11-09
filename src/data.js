@@ -27,28 +27,30 @@ export const header = {
 
 export const nav = [
   { name: "Home", href: "/" },
-  { name: "Sobre Nosotros", href: "/" },
-  { name: "Galería", href: "/" },
-  { name: "Servicios", href: "/" },
-  { name: "Reseñas", href: "/" },
-  { name: "FAQ", href: "/" },
+  { name: "Sobre Nosotros", href: "#salonPage" },
+  { name: "Galería", href: "#galeriaPage" },
+  { name: "Servicios", href: "#serviciosPage" },
+  { name: "Reseñas", href: "#resenasPage" },
+  { name: "FAQ", href: "#faqPage" },
+  { name: "Fechas Disponibles", href: "#fdPage" },
 ];
 
 export const banner = {
-  titlePart1: "Título",
-  titlePart2: "– Título2",
+  titlePart1: "Fizz",
+  titlePart2: "Salón de eventos",
   subtitle: "Lema - Descripción",
-  textBtn: "Reserva",
+  textBtn: "Más información",
+  wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon",
   img: "",
 };
 
 export const about = {
   icon: UsersIcn,
-  title: "El salón",
+  title: "Trayectoria",
   subtitle1:
-    "Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. ",
+    "Somos una familia que hace 8 años estamos cumpliendo un sueño y gracias a las familias que han confiado en nosotros podemos seguir adelante y creciendo cada vez más. En estos años hemos realizado muchos y diversos eventos que nos han dado experiencias para estar preparados para todas las necesidades de las familias y empresas. ",
   subtitle2:
-    "Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. Descripción del salon - empresa. ",
+    "Hoy en dia contamos con el salón principal y con un salón de menor tamaño con parrilla para ofrecerles diferentes experiencias y que puedan festejar o realizar reuniones a su medida. ",
   link: "Reserva",
 };
 
@@ -92,37 +94,100 @@ export const pricing = {
   title: "Servicios",
   plans: [
     {
-      name: "Basico",
-      price: "000000",
+      price: "Salón principal",
       list: [
-        { name: "Beneficio 1" },
-        { name: "Beneficio 2" },
-        { name: "Beneficio 3" },
+        { name: "Comida (consultar menú) " },
+        { name: "Servicio de mozos" },
+        { name: "Limpieza de baños" },
+        { name: "Guardias de seguridad" },
+        { name: "DJ con luces" },
+        { name: "Servicio de cocina para el armado de platos" },
+        { name: "Livings en el patio" },
+        { name: "Estacionamiento dentro del predio" },
       ],
+      descrip: `Puede ser “completo”: con comida (consultar menú) y servicios.  O “con servicios”: es solo el personal. 
+        El salón se alquila con mesas, sillas, vajilla, mantelería y cortinado.`,
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon%20principal",
       delay: 600,
     },
     {
-      name: "Premium",
-      price: "000000",
+      price: "Salón pequeño",
       list: [
-        { name: "Beneficio 1" },
-        { name: "Beneficio 2" },
-        { name: "Beneficio 3" },
-        { name: "Beneficio 4" },
+        { name: "Parrilla" },
+        { name: "Living" },
+        { name: "Metegol" },
+        { name: "Jenga grande" },
+        { name: "Rocola" },
+        { name: "Frízer" },
+        { name: "Microondas" },
+        { name: "Heladera" },
+        { name: "Mesas" },
+        { name: "Sillas" },
       ],
+      descrip: "*En caso de no necesitar algo de esto se puede retirar*",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon%20peque%C3%B1o",
       delay: 800,
     },
     {
-      name: "Elite",
-      price: "000000",
+      price: "Adicionables",
       list: [
-        { name: "Beneficio 1" },
-        { name: "Beneficio 2" },
-        { name: "Beneficio 3" },
-        { name: "Beneficio 4" },
-        { name: "Beneficio 5" },
+        { name: "Comida y/o bebida" },
+        { name: "Barra de tragos con o sin alcohol" },
+        { name: "Lluvia de luces led" },
+        { name: "Fundas y lazos para sillas" },
+        { name: "Servilletas de tela" },
+        { name: "Cascada de chocolate" },
+        { name: "Juegos de niños" },
+        { name: `Mesa dulce – candybar – tartas o postres` },
+        { name: "Se puede adicionar mas cantidad de personas " },
+        { name: "Mesas y sillas" },
+        {
+          name: "Descartables (vasos, platos, cucharas/tenedores, servilletas)",
+        },
       ],
-      delay: 1000,
+      descrip: "",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables",
+      delay: 800,
+    },
+  ],
+};
+
+export const pricing2 = {
+  icon: PriceIcn,
+  title: "Eventos infantiles",
+  plans: [
+    {
+      price: "Cumple base",
+      list: [
+        { name: "3 mesas redondas de adultos, 1 mesa de niños" },
+        { name: "Mesa cuadrada para la torta y sorpresitas" },
+        { name: "Vasos de vidrio y plástico" },
+        { name: "Mantelería (Color a elección)" },
+        { name: "Atención de mesas y Cuidado de niños durante el cumpleaños" },
+        { name: "Servicio de cocina" },
+        { name: "Plaza blanda con juegos para todas las edades" },
+        {
+          name: "3 peloteros, Ping pong, metegol, tejo, jenga gigante, canchita de futbol",
+        },
+        { name: "Cama elástica con juegos para niños en el patio" },
+      ],
+      descrip: "Hasta 55 personas entre niños/as y adultos y 3 horas reloj.",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Eventos%20infantiles",
+      delay: 600,
+    },
+    {
+      price: "Adicionables",
+      list: [
+        { name: "Combo de niños/as" },
+        { name: "Cocción de panchos" },
+        { name: "Combos de comida de adultos" },
+        { name: "Bebidas" },
+        { name: "Preparación de comidas (Pizza, hamburgueza, etc)" },
+        { name: "Pelotero acuático en verano (Con toallas)" },
+      ],
+      descrip: "Consulte para otros adicionables",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables%20infantiles",
+      delay: 800,
     },
   ],
 };
@@ -138,21 +203,18 @@ export const community = {
     },
     {
       image: CommunityImg2,
-      name: "Lauren K.",
-      message:
-        "“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”",
+      name: "Marcos A.",
+      message: "“Hermoso lugar, buen precio, dueños amables.”",
     },
     {
       image: CommunityImg3,
-      name: "Jhon D.",
-      message:
-        "“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”",
+      name: "Marcos A.",
+      message: "“Hermoso lugar, buen precio, dueños amables.”",
     },
     {
       image: CommunityImg4,
-      name: "Anne R.",
-      message:
-        "“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”",
+      name: "Marcos A.",
+      message: "“Hermoso lugar, buen precio, dueños amables.”",
     },
   ],
 };
@@ -198,10 +260,10 @@ export const join = {
   image: JoinImg,
   title: "¿Necesitas más información?",
   subtitle: "Subtitulo",
-  btnText: "Reserva",
+  btnText: "Fechas disponibles",
 };
 
 export const footer = {
   logo: Logo,
-  copyrightText: "Copyright (c)",
+  copyrightText: "Copyright",
 };
