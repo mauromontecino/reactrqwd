@@ -43,7 +43,7 @@ const About = () => {
         <div data-aos="fade-up" data-aos-delay="400">
           <a
             className="link flex items-center gap-x-4 hover:gap-x-6 transition-all"
-            href="/"
+            href="https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon"
           >
             {link}
             <IoIosArrowDroprightCircle className="text-2xl" />
