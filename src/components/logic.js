@@ -6,7 +6,7 @@ const loadReq = () => {
   fetch(url)
     .then((res) => res.text())
     .then((rep) => {
-      const data = JSON.parse(rep.substr(47).slice(0, -2));
+      const data = JSON.parse(rep.substring(47).slice(0, -2));
       const row = document.createElement("tr");
       row.classList.add("headerList");
       output.append(row);
@@ -18,7 +18,7 @@ const loadReq = () => {
       data.table.rows.forEach((main) => {
         const container = document.createElement("tr");
         output.append(container);
-        console.log(main.c);
+        //console.log(main.c);
         main.c.forEach((ele) => {
           const cell = document.createElement("td");
           cell.textContent = ele.v;
