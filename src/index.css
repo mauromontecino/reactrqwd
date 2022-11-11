@@ -91,3 +91,32 @@
 .botonFechas {
   top: 100px;
 }
+
+/*logic table*/
+
+.outputContainer {
+  text-align: -webkit-center !important;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.output {
+  text-align: center;
+}
+
+.outputContainer tr td {
+  padding: 0.5em 0.8em;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  white-space: pre;
+}
+
+tr.headerList td {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.output .headerList {
+  background-color: rgb(22 11 53 / var(--tw-bg-opacity));
+}

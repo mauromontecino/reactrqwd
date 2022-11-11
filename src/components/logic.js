@@ -8,6 +8,7 @@ const loadReq = () => {
     .then((rep) => {
       const data = JSON.parse(rep.substr(47).slice(0, -2));
       const row = document.createElement("tr");
+      row.classList.add("headerList");
       output.append(row);
       data.table.cols.forEach((heading) => {
         const cell = document.createElement("td");
