@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 import Header from "./components/Header";
 import ItemListContainer from "./components/ItemListContainer";
 import Footer from "./components/Footer";
-import Db from "./components/Db";
+import FechasDB from "./components/FechasDB";
 
 const App = () => {
   // aos initialization
@@ -25,7 +25,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
-          <Route path="/db" element={<Db />} />
+          <Route exact path="/db" element={<FechasDB />} />
         </Routes>
         <Footer />
       </BrowserRouter>
