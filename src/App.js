@@ -1,20 +1,16 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // import aos
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 // import components
-import Banner from "./components/Banner";
+
 import Header from "./components/Header";
-import About from "./components/About";
-import Workouts from "./components/Workouts";
-import Pricing from "./components/Pricing";
-import Pricing2 from "./components/Pricing2";
-import Community from "./components/Community";
-import Faq from "./components/Faq";
-import Join from "./components/Join";
+import ItemListContainer from "./components/ItemListContainer";
 import Footer from "./components/Footer";
+import Db from "./components/Db";
 
 const App = () => {
   // aos initialization
@@ -22,18 +18,17 @@ const App = () => {
     duration: 1000,
     delay: 100,
   });
+
   return (
     <div className="max-w-[1440px] mx-auto bg-page overflow-hidden relative">
-      <Header />
-      <Banner />
-      <About />
-      <Workouts />
-      <Pricing />
-      <Pricing2 />
-      <Community />
-      <Faq />
-      <Join />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/db" element={<Db />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
       {/* <div className='h-[4000px]'></div> */}
     </div>
   );
