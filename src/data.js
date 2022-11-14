@@ -1,17 +1,18 @@
 // images
 import Logo from "../src/assets/img/header/logoFizz.png";
-import ResistanceImg from "../src/assets/img/workouts/resistance.png";
-import BoxingImg from "../src/assets/img/workouts/boxing.png";
-import BodyPumpImg from "../src/assets/img/workouts/body-pump.png";
-import YogaImg from "../src/assets/img/workouts/yoga.png";
-import FullBodyImg from "../src/assets/img/workouts/full-body.png";
-import FitnessImg from "../src/assets/img/workouts/fitness.png";
-import BattleRopeImg from "../src/assets/img/workouts/battle-rope.png";
+import imag1 from "../src/assets/img/workouts/imag1.png";
+import imag2 from "../src/assets/img/workouts/imag2.png";
+import imag3 from "../src/assets/img/workouts/imag3.png";
+import imag4 from "../src/assets/img/workouts/imag4.png";
+import imag5 from "../src/assets/img/workouts/imag5.png";
+import imag6 from "../src/assets/img/workouts/imag6.png";
+import imag7 from "../src/assets/img/workouts/imag7.png";
+import imag8 from "../src/assets/img/workouts/imag8.png";
 import CommunityImg1 from "../src/assets/img/community/img1.png";
 import CommunityImg2 from "../src/assets/img/community/img2.png";
 import CommunityImg3 from "../src/assets/img/community/img3.png";
 import CommunityImg4 from "../src/assets/img/community/img4.png";
-import JoinImg from "../src/assets/img/join/woman.png";
+import imgPrinc from "../src/assets/img/join/imgPrinc.png";
 // icons
 import UsersIcn from "../src/assets/img/about/icons/users-icn.svg";
 import CalendarIcn from "../src/assets/img/workouts/icons/calendar.svg";
@@ -59,31 +60,35 @@ export const workouts = {
   title: "Galería",
   programs: [
     {
-      image: ResistanceImg,
+      image: imag1,
       name: "Descripción",
     },
     {
-      image: BoxingImg,
+      image: imag2,
       name: "Descripción",
     },
     {
-      image: BodyPumpImg,
+      image: imag3,
       name: "Descripción",
     },
     {
-      image: YogaImg,
+      image: imag4,
       name: "Descripción",
     },
     {
-      image: FullBodyImg,
+      image: imag5,
       name: "Descripción",
     },
     {
-      image: FitnessImg,
+      image: imag6,
       name: "Descripción",
     },
     {
-      image: BattleRopeImg,
+      image: imag7,
+      name: "Descripción",
+    },
+    {
+      image: imag8,
       name: "Descripción",
     },
   ],
@@ -257,7 +262,7 @@ export const faq = {
 };
 
 export const join = {
-  image: JoinImg,
+  image: imgPrinc,
   title: "¿Necesitas más información?",
   subtitle: "Escribinos o consultá las",
   btnText: "Fechas disponibles",
