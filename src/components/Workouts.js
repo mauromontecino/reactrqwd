@@ -22,9 +22,18 @@ const Workouts = () => {
           {title} <span className="text-primary-200">.</span>
         </h2>
       </div>
+
       {/* slider */}
       <div data-aos="fade-up" data-aos-delay="300">
         <WorkoutSlider />
+      </div>
+      <div className="text-center verMas">
+        <a
+          href="http://google.com"
+          className="link gap-x-4 hover:gap-x-6 transition-all"
+        >
+          Ver más
+        </a>
       </div>
     </section>
   );

@@ -25,6 +25,14 @@ const Pricing2 = () => {
       </div>
       {/* plan list */}
       <PlanList plans={plans} />
+      <div className="text-center verMas">
+        <a
+          className="link d-flex justify-content-center gap-x-4 hover:gap-x-6 "
+          href="/promociones"
+        >
+          Ver Promociones
+        </a>
+      </div>
     </section>
   );
 };

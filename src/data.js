@@ -28,18 +28,18 @@ export const header = {
 
 export const nav = [
   { name: "Home", href: "/" },
-  { name: "Sobre Nosotros", href: "#salonPage" },
-  { name: "Galería", href: "#galeriaPage" },
-  { name: "Servicios", href: "#serviciosPage" },
-  { name: "Reseñas", href: "#resenasPage" },
-  { name: "FAQ", href: "#faqPage" },
-  { name: "Fechas Disponibles", href: "#fdPage" },
+  { name: "Sobre Nosotros", href: "/#salonPage" },
+  { name: "Galería", href: "/#galeriaPage" },
+  { name: "Servicios", href: "/#serviciosPage" },
+  { name: "Reseñas", href: "/#resenasPage" },
+  { name: "FAQ", href: "/#faqPage" },
+  { name: "Fechas Disponibles", href: "/db" },
 ];
 
 export const banner = {
   titlePart1: "Fizz",
   titlePart2: "Salón de eventos",
-  subtitle: "Lema - Descripción",
+  subtitle: "",
   textBtn: "Más información",
   wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon",
   img: "",
@@ -111,26 +111,27 @@ export const pricing = {
         { name: "Estacionamiento dentro del predio" },
       ],
       descrip: `Puede ser “completo”: con comida (consultar menú) y servicios.  O “con servicios”: es solo el personal. 
-        El salón se alquila con mesas, sillas, vajilla, mantelería y cortinado.`,
+        En caso de no necesitar catering, se puede alquilar el salón con los servicios mencionados.
+        El salón incluye mesas, sillas, vajilla, mantelería y cortinado blanco.`,
       wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon%20principal",
       delay: 500,
     },
     {
-      price: "Salón pequeño",
+      price: "Quincho",
       list: [
         { name: "Parrilla" },
         { name: "Living" },
         { name: "Metegol" },
         { name: "Jenga grande" },
+        { name: "Tejo y juegos de mesa" },
         { name: "Rocola" },
         { name: "Frízer" },
-        { name: "Microondas" },
         { name: "Heladera" },
         { name: "Mesas" },
         { name: "Sillas" },
       ],
       descrip: "*En caso de no necesitar algo de esto se puede retirar*",
-      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon%20peque%C3%B1o",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Quincho",
       delay: 500,
     },
     {
@@ -149,6 +150,12 @@ export const pricing = {
         {
           name: "Descartables (vasos, platos, cucharas/tenedores, servilletas)",
         },
+        { name: "Columnas de colores" },
+        { name: "Alfombra roja" },
+        { name: "Living dentro del salón" },
+        { name: "Proyector" },
+        { name: "Carrito de helados" },
+        { name: "Telón con luces led" },
       ],
       descrip: "",
       wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables",
@@ -189,6 +196,10 @@ export const pricing2 = {
         { name: "Bebidas" },
         { name: "Preparación de comidas (Pizza, hamburgueza, etc)" },
         { name: "Pelotero acuático en verano (Con toallas)" },
+        { name: "Ampliar la capacidad de personas" },
+        { name: "Cascada de chocolate o candy bar" },
+        { name: "Helado" },
+        { name: "Banners temáticos o cartel de feliz cumpleaños" },
       ],
       descrip: "Consulte para otros adicionables",
       wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables%20infantiles",
@@ -208,18 +219,21 @@ export const community = {
     },
     {
       image: CommunityImg2,
-      name: "Marcos A.",
-      message: "“Hermoso lugar, buen precio, dueños amables.”",
+      name: "Laurita T.",
+      message: `“Hermoso salón para festejar un cumpleaños de niños, tiene peloteros y juegos dentro y fuera del salón...
+      Muy buena atención y ambientación.”`,
     },
     {
       image: CommunityImg3,
-      name: "Marcos A.",
-      message: "“Hermoso lugar, buen precio, dueños amables.”",
+      name: "Falconero H.",
+      message:
+        "“Lugar muy lindo, ordenado, limpio. Peloteros nuevos y en cuanto a sus motores con protección ante accidentes. Fácil de llegar y estacionamiento en la calle muy amplio. La atención de la Dueña es magnífico! Dulce, simpática, agradable y muy muy atenta a todo. Las asistentes (mozo) lo mismo. Excelente su atención y amabilidad. Cuidando a los chicos en todo momento. Super super recomiendo el lugar.!”",
     },
     {
       image: CommunityImg4,
-      name: "Marcos A.",
-      message: "“Hermoso lugar, buen precio, dueños amables.”",
+      name: "Julieta G.",
+      message:
+        "“Completo. Servicio de mozos. Cuidado protocolar. Muchos juegos juguetes y espacios confortables.”",
     },
   ],
 };
@@ -270,5 +284,5 @@ export const join = {
 
 export const footer = {
   logo: Logo,
-  copyrightText: "Copyright",
+  copyrightText: "Sitio web diseñado por ",
 };
