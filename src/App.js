@@ -11,7 +11,6 @@ import Header from "./components/Header";
 import ItemListContainer from "./components/ItemListContainer";
 import Footer from "./components/Footer";
 import FechasDB from "./components/FechasDB";
-import Promociones from "./components/Promociones";
 
 const App = () => {
   // aos initialization
@@ -27,7 +26,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route exact path="/db" element={<FechasDB />} />
-          <Route exact path="/promociones" element={<Promociones />} />
         </Routes>
         <Footer />
       </BrowserRouter>
