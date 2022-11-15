@@ -30,10 +30,11 @@ const Pricing2 = () => {
         <div className={estilos.container}>
           <div className={estilos.interior}>
             <a
-              className="link d-flex justify-content-center gap-x-4 hover:gap-x-6 "
+              className="link gap-x-4 hover:gap-x-6 flex items-center inline-flex transition-all"
               href="#open-modal"
             >
-              Ver promociones
+              Ver promociones{" "}
+              <i className="fa-solid fa-circle-chevron-right"></i>
             </a>
           </div>
         </div>
@@ -47,20 +48,20 @@ const Pricing2 = () => {
               Cerrar
             </a>
             <h1>
-              CUMPLES INFANTILES <i class="fa-solid fa-cake-candles"></i>
+              CUMPLES INFANTILES <i className="fa-solid fa-cake-candles"></i>
             </h1>
             <div>
               <strong>
                 <p>
-                  <i class="fa-solid fa-tags"></i> De Lunes a Jueves ¡10% de
+                  <i className="fa-solid fa-tags"></i> De Lunes a Jueves ¡10% de
                   descuento!
                 </p>
               </strong>
               <br />
               <strong>
                 <p>
-                  <i class="fa-solid fa-tags"></i> De Lunes a Jueves de 13hs a
-                  17hs ¡20% de descuento!
+                  <i className="fa-solid fa-tags"></i> De Lunes a Jueves de 13hs
+                  a 17hs ¡20% de descuento!
                 </p>
               </strong>
             </div>
