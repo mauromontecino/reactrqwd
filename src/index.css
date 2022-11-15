@@ -130,3 +130,13 @@ tr.headerList td {
 .fa-circle-chevron-right {
   font-size: 20px;
 }
+
+footer h2 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 14px;
+}
