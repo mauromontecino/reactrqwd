@@ -243,34 +243,43 @@ export const faq = {
   title: "FAQ",
   accordions: [
     {
-      question: "¿Como puedo reservar?",
+      question: "¿Cuánto tiempo antes se puede reservar?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Las agendas para el año actual y el siguiente están abiertas todo el año. ",
     },
     {
-      question: "¿Como puedo reservar?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+      question: "¿Qué NO incluye el alquiler del salon base?",
+      answer: "El salon NO incluye decoración, descartables, comida/bebida. ",
     },
     {
-      question: "¿Como puedo reservar?",
+      question: "¿Qué días se puede acceder al salon para verlo?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "Todos los días aunque la franja horaria puede variar. Consultar por wpp.",
     },
     {
-      question: "¿Como puedo reservar?",
+      question: "Si entrego la seña, ¿Se congela el precio?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "No, la seña solo es para reservar el lugar. Los precios se actualizan pero hay descuentos para las personas que reservan con anticipación.",
     },
     {
-      question: "¿Como puedo reservar?",
+      question: "¿Cuánto tiempo antes del evento se puede ingresar al salón?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "El salón abre sus puertas 15 minutos antes de cada evento. Sin excepción. ",
     },
     {
-      question: "¿Como puedo reservar?",
+      question: "¿La decoración viene incluida?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.",
+        "No, la decoración no viene incluida. Sin embargo, podemos facilitarte varios contactos. ",
+    },
+    {
+      question: "¿Los adicionales cuando se pueden abonar?",
+      answer:
+        "Se pueden abonar desde el momento de la reserva hasta la finalización del cumpleaños. ",
+    },
+    {
+      question: "¿Hasta cuándo puedo avisar si quiero unos de los adicionales?",
+      answer:
+        "Es importante que si quieren algún adicional avisen 72hs antes para asegurarnos de poder brindárselos. ",
     },
   ],
 };
