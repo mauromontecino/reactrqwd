@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="text-center">
         <br />
         <h2>Teléfono:</h2>
-        <p>+54 9 299 5175495</p>
+        <p>+54 9 299 5175423</p>
         <br />
         <h2>Dirección:</h2>
         <p>Río Negro 51, Centenario, Neuquén</p>

@@ -29,7 +29,7 @@ const Workouts = () => {
       </div>
       <div className="text-center verMas">
         <a
-          href="http://google.com"
+          href="https://drive.google.com/drive/folders/1xVphXykC5bIJw4Qvfqkz6pnea3zHyRRq"
           className="link gap-x-4 hover:gap-x-6 transition-all"
         >
           Ver más

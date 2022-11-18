@@ -33,7 +33,10 @@ export const nav = [
   { name: "Servicios", href: "/#serviciosPage" },
   { name: "Reseñas", href: "/#resenasPage" },
   { name: "FAQ", href: "/#faqPage" },
-  { name: "Fechas Disponibles", href: "/db" },
+  {
+    name: "Fechas Disponibles",
+    href: "https://salonfizz.com.ar/calendario/events/",
+  },
 ];
 
 export const banner = {
@@ -41,7 +44,7 @@ export const banner = {
   titlePart2: "Salón de eventos",
   subtitle: "",
   textBtn: "Más información",
-  wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon",
+  wpp: "https://api.whatsapp.com/send?phone=+5492995175423&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon",
   img: "",
 };
 
@@ -113,7 +116,7 @@ export const pricing = {
       descrip: `Puede ser “completo”: con comida (consultar menú) y servicios.  O “con servicios”: es solo el personal. 
         En caso de no necesitar catering, se puede alquilar el salón con los servicios mencionados.
         El salón incluye mesas, sillas, vajilla, mantelería y cortinado blanco.`,
-      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon%20principal",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175423&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Salon%20principal",
       delay: 500,
     },
     {
@@ -131,7 +134,7 @@ export const pricing = {
         { name: "Sillas" },
       ],
       descrip: "*En caso de no necesitar algo de esto se puede retirar*",
-      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Quincho",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175423&text=Hola!%20Quiero%20mas%20informacion%20sobre%20el%20Quincho",
       delay: 500,
     },
     {
@@ -158,7 +161,7 @@ export const pricing = {
         { name: "Telón con luces led" },
       ],
       descrip: "",
-      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175423&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables",
       delay: 500,
     },
   ],
@@ -184,7 +187,7 @@ export const pricing2 = {
         { name: "Cama elástica con juegos para niños en el patio" },
       ],
       descrip: "Hasta 55 personas entre niños/as y adultos y 3 horas reloj.",
-      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Eventos%20infantiles",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175423&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Eventos%20infantiles",
       delay: 500,
     },
     {
@@ -202,7 +205,7 @@ export const pricing2 = {
         { name: "Banners temáticos o cartel de feliz cumpleaños" },
       ],
       descrip: "Consulte para otros adicionables",
-      wpp: "https://api.whatsapp.com/send?phone=+5492995175495&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables%20infantiles",
+      wpp: "https://api.whatsapp.com/send?phone=+5492995175423&text=%C2%A1Hola!%20Quiero%20mas%20informacion%20sobre%20los%20Adicionables%20infantiles",
       delay: 500,
     },
   ],

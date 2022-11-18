@@ -36,7 +36,7 @@ const Join = () => {
               <p className="text-body-sm md:text-body-md text-white mb-4 lg:mb-6 max-w-[348px] md:max-w-[470px] lg:max-w-[492px]">
                 {subtitle}
               </p>
-              <a href="/db">
+              <a href="https://salonfizz.com.ar/calendario/events/">
                 <button className="btn btn-secondary btn-lg">{btnText}</button>
               </a>
             </div>
